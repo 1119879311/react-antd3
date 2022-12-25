@@ -1,0 +1,55 @@
+.ant-form-item.by-input-formitem {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.by-input-formitem .ant-form-item-label{
+    width: 110px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 34px;
+}
+.by-input-formitem .ant-form-item-control-wrapper{
+    flex: auto;
+}
+
+.by-input-formitem-vertical{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.by-input-formitem-vertical .ant-form-item-label{
+    text-align: left;
+    width: 100%;
+}
+
+.by-input-formitem-vertical .ant-form-item-control-wrapper{
+    width: 100%;
+}
+
+.by-input-beforeContaioner,
+.by-input-afterContaioner{
+    display: flex;
+    margin: 8px 2px 0 2px;
+}
+
+.by-input-formitem .ant-checkbox-wrapper{
+    line-height:28px
+}
+
+
+.by-input-increasing_group{
+    display: flex;
+}
+
+
+.by-input-increasing-container{
+    width: 100%;
+}
+.by-input-increasing_deleteIonic{
+margin: 8px 4px 0 4px;
+}
+
+.by-input-increasing_addContainer{
+    min-width: 120px;
+}
